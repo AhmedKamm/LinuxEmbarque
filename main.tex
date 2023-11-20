@@ -1,0 +1,60 @@
+\usepackage{lipsum}
+\begin{document}
+
+% =======================================================================================
+%\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+% =======================================================================================
+%                                   PREAMBLE
+% =======================================================================================
+\coverpage{\TITLE}{\SUBTITLE}{\AUTHOR}{\DATE}
+%----------------------------------------------------------------------------------------
+\newpage
+\tableofcontents
+
+% =======================================================================================
+%                                   PART I
+% =======================================================================================
+\part{TÂCHE 1}
+%----------------------------------------------------------------------------------------
+\newpage
+\chapter{ Compilation croisée et émulation ARM avec QEMU} \label{Compilation croisée et émulation ARM avec QEMU}
+\input{sections/part1/phasellus}
+%----------------------------------------------------------------------------------------
+
+
+% =======================================================================================
+%                                   PART II
+% =======================================================================================
+
+\part{TÂCHE 2}
+\chapter{ Configuration d'un compilateur croisé } \label{ configuration d'un compilateur croisé en utilisant Crosstool-NG}
+\input{sections/part2/part2}
+
+=======================================================================================
+%                                   PART III
+% =======================================================================================
+
+
+\part{TÂCHE 3}
+\chapter{ Création d'un appel système "Helloworld" } \label{  Création d'un nouveau module "Helloworld" }
+\input{sections/part3/part3}
+=======================================================================================
+%                                   PART 4
+% =======================================================================================
+
+\part{TÂCHE 4}
+\chapter{ Création d'un module de noyau} \label{ Création d'un module de noyau}
+\input{sections/part4/part4}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
